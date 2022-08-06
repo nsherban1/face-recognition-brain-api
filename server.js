@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser'); // latest version of exressJS now comes with Body-Parser!
-const bcrypt = require('bcrypt-nodejs');
-const cors = require('cors');
-const knex = require('knex')
+import express from 'express';
+import bodyParser from 'body-parser'; // latest version of exressJS now comes with Body-Parser!
+import bcrypt from 'bcrypt-nodejs';
+import cors from 'cors';
+import knex from 'knex'
 
 const db = knex({
   // Enter your own database information here based on what you created
